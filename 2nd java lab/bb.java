@@ -11,10 +11,11 @@ public class bb
         Scanner sc=new Scanner(System.in);
         
         int n;    
-        System.out.println("Enter the size of the array: ");
+        System.out.println("\n-------------------------------\n");
+        System.out.print("Enter the size of the array:==");
         n=sc.nextInt();    
         int arr[]=new int[n];   
-        System.out.println("Enter the array elements: ");
+        System.out.print("\n Enter the array elements: ");
         for(int i=0;i<n;i++)
         {
             arr[i]=sc.nextInt();   
@@ -37,6 +38,7 @@ public class bb
             if(arr[i]%2!=0)   
             {
                 System.out.print(arr[i]+" ");
+              
             }
         }
     }
