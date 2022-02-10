@@ -65,3 +65,31 @@ public class aa
 //             System.out.println(num3+" is the largest Number");
 //     }
 //   }
+
+
+
+
+// import java.util.Scanner;
+
+// public class aa {
+//     public static void main(String[] args){
+//         int x,y,z;
+//         Scanner sc =new Scanner(System.in);
+//         System.out.print("Enter the First number:= ");
+//         x=sc.nextInt();
+//         System.out.print("Enter the Second number:= ");
+//         y=sc.nextInt();
+//         System.out.print("Enter the Third number:= ");
+//         z=sc.nextInt();
+//         if (x>y && x>z){
+//             System.out.println("The Largest Number is : "+x);
+//         }
+//         else if(y > z)
+//         {
+//             System.out.println("The Largest Number is : "+y);
+//     }
+//     else{
+//         System.out.println("The Largest Number is : "+z);
+//         }
+//     }
+// }
