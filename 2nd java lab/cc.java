@@ -15,21 +15,21 @@ public class cc
         char choice = in.next().charAt(0);
         
         switch(choice) {
-            case 'c':
+            case '1':
                 System.out.print("Enter radius of circle: ");
                 double r = in.nextDouble();
                 double ca = (22 / 7.0) * r * r;
                 System.out.println("Area of circle = " + ca);
                 break;
                 
-            case 's':
+            case '2':
                 System.out.print("Enter side of square: ");
                 double side = in.nextDouble();
                 double sa = side * side;
                 System.out.println("Area of square = " + sa);
                 break;
                 
-            case 'r':
+            case '3':
                 System.out.print("Enter length of rectangle: ");
                 double l = in.nextDouble();
                 System.out.print("Enter breadth of rectangle: ");
