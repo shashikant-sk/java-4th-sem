@@ -1,3 +1,6 @@
+// 5. Find sum of each diagonal (left &amp; right) elements separately of a user entered 3 X 3
+// matrixes in Java.
+
 import java.util.Scanner;
 
 public class progg5 {
@@ -20,3 +23,9 @@ public class progg5 {
         System.out.println("Sum of right diagonal elements = " + rightD);
     }
 }
+
+
+
+
+
+
