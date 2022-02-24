@@ -1,3 +1,6 @@
+/**2. Illustrate the execution of constructors in multi-level inheritance with three Java classes –
+plate(int length, int width), box(length, width, height), wood box (length, width, height,
+thick). */
 public class prog2 {
     public static void main(String args[]) {
         System.out.println("Inside main function.........");
