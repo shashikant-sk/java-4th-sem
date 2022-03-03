@@ -22,5 +22,5 @@ public class A {
        System.out.println("-----------------------------------");
     System.out.println(" "+fname+"\n "+Roll+" \n "+sec+"\n "+bra);
 
-    
+  }
   }
