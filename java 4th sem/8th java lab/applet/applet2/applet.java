@@ -20,7 +20,7 @@ public class applet
 
         g.setColor(Color.BLACK);
         g.setFont(normieFont);
-        g.drawString("HANS PATTNAIK", 80, 15);
+        g.drawString("shashikant shah", 80, 15);
 
 
         g.setColor(Color.RED);
@@ -29,7 +29,7 @@ public class applet
 
         g.setColor(Color.BLACK);
         g.setFont(normieFont);
-        g.drawString("20051902", 80, 30);
+        g.drawString("20051939", 80, 30);
 
 
         g.setColor(Color.RED);

@@ -10,7 +10,7 @@ public class applet
     public void init() {
         setForeground(Color.WHITE);
         setBackground(Color.GRAY);
-        img = getImage(getDocumentBase(), "rickroll.jpg");
+        img = getImage(getDocumentBase(), "motivation pic.jpg");
         boldFont = new Font("Arial", Font.BOLD, 18);
     }
 
