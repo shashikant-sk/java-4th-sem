@@ -1,0 +1,3 @@
+Design a web page using frames which will divide the page into three frames called top,left and right. 
+The top frame will display the title of the web page. The left frame will have two hyperlinks such as CSE and IT. 
+When the user clicks on any of the links, the corresponding web page will be displayed in the right frame.
