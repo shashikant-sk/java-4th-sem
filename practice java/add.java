@@ -1,29 +1,40 @@
-// import java.util.*;
+import java.io.*;
+import java.util.*;
+public static void main(String[] args) {
+    inerfac show{
+        public void show() {
+            
+    }
+     class x {
+        public void show() {
+         System.out.println(" "");
 
-// public class add {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int a = sc.nextInt();
-//         int b = sc.nextInt();
-//         int sum = a + b ;
-//         System.out.println(sum);
+        }
+     }
+     class y extends x implements show {
+        public void show() {
+         System.out.println(" "");
 
-//     }
-// }
+        }
+     }
+     public class test A extends y {
+        public void show() {
+         System.out.println(" "");
 
+        }
+     }
+        public class test A extends y {
+            public void method() {
+                System.out.println(" ");
 
-// import java.util.*;
-// public class add {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Eneter tha 1st value :");
-//         int a=sc.nextInt();
-//         System.out.println("Enetr the 2nd value :");
-//         int b = sc.nextInt();
-//         System.out.println("----------------");
-//         int c = a + b ;
-//         System.out.println("sum is : "+c);
-//         System.out.println("----------------");
-//     }
-// }
-
+            }
+    
+            }
+            public class testA extends y {
+                public static void main(String[] args) {
+                    {
+                        x s =new y();
+                        s.method();
+                    }
+                }
+            }
