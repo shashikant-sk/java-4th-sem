@@ -38,6 +38,7 @@ class CreditCard_Bill {
         }
         System.out.println("Total Amount: " + total);
     }
+    
 
     Boolean validateDate() {
         // check if the credit card number is 16 digits

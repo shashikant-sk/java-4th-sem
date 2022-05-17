@@ -1,5 +1,4 @@
 // Write a program in java to create a class Queue having data members- an array of 10 strings. It contains member functions Enqueue()- adding an element in the queue if there is space in the queue. Dequeue()- Removing elements from a queue if there are any elements in the queue Display()-to display all elements in the array.Make sure your queue class work like First In First out principle
-
 class queue {
     
     String[] arr = new String[10];
