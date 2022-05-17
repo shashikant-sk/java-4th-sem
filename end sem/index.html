@@ -1,12 +1,18 @@
-<!-- Design the web page using frames which will divide the frames into three
-frames called top, left and right. The top frame will display the title of the web
-page. The left frame will have two hyperlinks, ‘About us’ and ‘Joining form’.
-When the user clicks on ‘About us’, the details of KIIT web page will be
-displayed in the right frame (you do not need to create KIIT website, assume it
-already exists). Similarly, when the user clicks on ‘Joining form’, a form
-consisting of the following component will be displayed in the right frame: log
-in (text field), password, gender (radio button), choice of course (check box),
-choice of subjects (drop down menu), and comments (text area). -->
+<!-- Create a specimen of a Movie website in html. Divide the
+browser window into three frames with top frame as 30% in row
+wise which should scroll images of movies left to right along with
+their names. The remaining 70% bottom frame should be further
+divided into two frames column wise in which 70% left bottom
+frame will display different player links to play the movie when
+you click on image of the movie in top frame. The remaining 30%
+right bottom frame should display the movie story, along with cast
+like director name, producer name, music director, hero, heroine
+when you click on the name of movie in the top frame.
+Top Frame
+Left bottom frame
+Right
+bottom
+frame -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,21 +23,11 @@ choice of subjects (drop down menu), and comments (text area). -->
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="top">
-        <h1>KIIT University</h1>
+        
+    <div>
+        <iframe src="https://www.youtube.com/embed/<?php echo $movie['trailer']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
-    
-    <div class="left">
-        <ul>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="join.html">Joining form</a></li>
-        </ul>
-    </div>
-    
-    <div class="right">
-        <iframe src="about.html" width="100%" height="100%"></iframe>
-    </div>  
-    
+        
 </body>
 </html>
